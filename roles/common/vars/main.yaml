@@ -1,0 +1,3 @@
+login_user: "{{login_user}}"
+login_password: "{{login_password}}"
+login_host: "{{DB_HOST}}"

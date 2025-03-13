@@ -16,8 +16,8 @@
     - cryptography
     executable: pip3.9 # pip3.11 if python version is 3.11  
 
-- name: import role common
-  ansible.builtin.import.role:
+- name: run app pre-requisites
+  ansible.builtin.import_role:
     name: common
     vars_from: vars/main.yaml        
 

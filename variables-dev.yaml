@@ -1,0 +1,4 @@
+login_user: root
+login_password: ExpenseApp1
+DB_HOST: db-dev.narendra.shop
+BACKEND_API_URL: backend.app-dev.narendra.shop

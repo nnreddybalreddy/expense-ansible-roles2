@@ -2,3 +2,4 @@
 # login_password: ExpenseApp@1
 # DB_HOST: db.narendra.shop
 # BACKEND_API_URL: backend.narendra.shop
+nexus_url: nexus.narendra.shop:8081

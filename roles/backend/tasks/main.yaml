@@ -34,10 +34,10 @@
 #     dest: /app
 #     remote_src: yes 
 
-- name: npm install      
-  ansible.builtin.command: npm install
-  args:
-    chdir: /app    
+# - name: npm install      
+#   ansible.builtin.command: npm install
+#   args:
+#     chdir: /app    
 
 - name: /etc/systemd/system/backend.service
   ansible.builtin.template:

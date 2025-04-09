@@ -13,4 +13,5 @@
     src: "http://{{ nexus_url }}/repository/{{ component }}/com/expense/{{ component }}/{{ appVersion }}/{{ component }}-{{ appVersion }}.zip"
     dest: "{{ app_location }}"
     remote_src: yes
+    
 
